@@ -35,3 +35,8 @@ browser.get(meeting_url)
 while True:
     time.sleep(5)
     print("beating")
+    
+        try:
+            browser.find_element_by_xpath("//button[contains(text(), 'Join Audio by Computer')]").click()
+        except:
+            pass
