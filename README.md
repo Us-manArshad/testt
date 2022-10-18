@@ -8,7 +8,7 @@ import time
 
 
 
-meeting_url = "https://v.ringcentral.com/join/638640508770?pw=0af436f88fcdbd054d4e5a9f14c0b7b8"
+meeting_url = ""
 
 options = Options()
 
