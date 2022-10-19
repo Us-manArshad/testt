@@ -1,3 +1,12 @@
+options.add_experimental_option("excludeSwitches", ["enable-automation"])
+
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
+options.add_experimental_option('useAutomationExtension', False)
+
+options.add_argument('--disable-blink-features=AutomationControlled')
+
+
 from selenium import webdriver
 
 from selenium.webdriver.firefox.options import Options
