@@ -6,7 +6,7 @@ import time
 
 
 
-meeting_url = "https://v.ringcentral.com/join/315564510467?pw=18c0ddcb14a35a5a7d2433e57a02184d"
+meeting_url = ""
 
 options = webdriver.ChromeOptions()
 
